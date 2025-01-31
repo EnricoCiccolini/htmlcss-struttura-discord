@@ -41,10 +41,21 @@ header{
 .bg-arancione{
     background-color: #daa520;
 }
-.bg_rosa{
+.bg-viola{
     background-color: #ee82ee;
 }
 
+.bg-azzurro{
+    background-color: #1e90ff;
+}
+
+.bg-rosa{
+    background-color: #ffc0cb;
+}
+
+.bg-griggio{
+    background-color: #d3d3d3;
+}
 
 /*bordo*/
 
@@ -53,20 +64,32 @@ header{
 }
 /*flex*/
 
-       /*head*/
-       .flexhead{
-        display: flex;
+    .flex{
+
+    display: flex;
 
        }
+
+     .flex-reverse  {
+        flex-direction: row-reverse;
+     }
 /* largezza*/
 
 .wh25{
     width: 25%;
 
 }
+
+.wh40{
+    width: 40%;
+}
 .wh50{
     width: 50%;
 
+}
+
+.wh60{
+    width: 65%;
 }
 
 
