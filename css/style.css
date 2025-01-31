@@ -26,6 +26,7 @@ box-sizing: border-box;}
 
 
 /* colori */
+
 header{
     background-color:#add8e6 ;
 }
@@ -57,10 +58,30 @@ header{
     background-color: #d3d3d3;
 }
 
+.bg-nero {
+    background-color: #23272a;
+}
+
+.bg-rosa-chiaro{
+    background-color: #f08080;
+}
+.bg-verde{
+    background-color: #228b22 ;
+}
+.bg-acqua{
+    background-color: #20b2aa;
+}
+.bg-marina{
+    background-color: #7fffd4;
+}
+
 /*bordo*/
 
 .bordo{
-    border: solid black;
+    border: dotted black;
+}
+.bordo-bianco{
+    border: dotted white;
 }
 /*flex*/
 
@@ -73,7 +94,15 @@ header{
      .flex-reverse  {
         flex-direction: row-reverse;
      }
+     .justify{
+        justify-content: space-between;
+     }
+
+     
 /* largezza*/
+.wh360{
+    width: 360px;
+}
 
 .wh25{
     width: 25%;
@@ -97,4 +126,8 @@ header{
 
 .altezza-prov{
     height:490px;
+}
+
+.altezza-prov2{
+    height: 800px;
 }
