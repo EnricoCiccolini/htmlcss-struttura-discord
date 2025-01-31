@@ -2,3 +2,76 @@
 border: 0;
 padding: 0;
 box-sizing: border-box;}
+
+
+
+
+
+
+/* dimensione */
+.contenitore {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    
+}
+.contenitore-piccolo{
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+
+/* colori */
+header{
+    background-color:#add8e6 ;
+}
+
+.bg-blu{
+    background-color: #00008b;
+}
+
+.bg-arancione{
+    background-color: #daa520;
+}
+
+.bg-arancione{
+    background-color: #daa520;
+}
+.bg_rosa{
+    background-color: #ee82ee;
+}
+
+
+/*bordo*/
+
+.bordo{
+    border: solid black;
+}
+/*flex*/
+
+       /*head*/
+       .flexhead{
+        display: flex;
+
+       }
+/* largezza*/
+
+.wh25{
+    width: 25%;
+
+}
+.wh50{
+    width: 50%;
+
+}
+
+
+/* da rimuovere */
+
+.altezza-prov{
+    height:490px;
+}
