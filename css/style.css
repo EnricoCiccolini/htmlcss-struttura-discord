@@ -12,18 +12,32 @@ box-sizing: border-box;}
 .contenitore {
     width: 1100px;
     margin: 0 auto;
-    padding: 10px;
+   
     text-align: center;
     
 }
 .contenitore-piccolo{
     width: 900px;
     margin: 0 auto;
-    padding: 50px 0;
+    
     text-align: center;
 }
 
+/*padding */
+.pd50{
+    padding: 50px 0;
 
+}
+.pd10{
+    padding: 10px 0;
+
+}
+.pdt-05{
+    padding-top: 10px;
+}
+.pdb-15{
+    padding-bottom: 20px;
+}
 
 /* colori */
 
@@ -75,8 +89,11 @@ header{
     background-color: #7fffd4;
 }
 
-/*bordo*/
 
+/*bordo*/
+hr{
+    height: 2px;
+}
 .bordo{
     border: dotted black;
 }
